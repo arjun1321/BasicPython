@@ -1,0 +1,10 @@
+f = open("testfile.txt", "a")
+f.write("\n This is my appending text to my text file.")
+f.close()
+f = open("testfile.txt", "r")
+print(f.read())
+f.close()
+
+f = open("testfile.txt", "a+")
+f.write("\n some more appended text.")
+print(f.read())

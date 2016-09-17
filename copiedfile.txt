@@ -1,0 +1,9 @@
+I have entered some text into this file 
+ let's see if this works
+ This is my appending text to my text file.
+ This is my appending text to my text file.
+ some more appended text.
+ This is my appending text to my text file.
+ some more appended text.
+ This is my appending text to my text file.
+ some more appended text.
