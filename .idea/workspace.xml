@@ -20,6 +20,7 @@
     <SUITE FILE_PATH="coverage/pythonprojects$writefile.coverage" NAME="writefile Coverage Results" MODIFIED="1473687569385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonprojects$ShuffleAndChoice.coverage" NAME="ShuffleAndChoice Coverage Results" MODIFIED="1474092126686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonModules" />
     <SUITE FILE_PATH="coverage/pythonprojects$First.coverage" NAME="First Coverage Results" MODIFIED="1473682222033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonprojects$SysModule.coverage" NAME="SysModule Coverage Results" MODIFIED="1474092943028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonModules" />
     <SUITE FILE_PATH="coverage/pythonprojects$CopyFile.coverage" NAME="CopyFile Coverage Results" MODIFIED="1474088844205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonprojects$ReadFile.coverage" NAME="ReadFile Coverage Results" MODIFIED="1473687024513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -92,11 +93,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShuffleAndChoice.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShuffleAndChoice.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonModules/ShuffleAndChoice.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysModule.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonModules/SysModule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -125,6 +136,7 @@
         <option value="$PROJECT_DIR$/PythonModules/Guessing game.py" />
         <option value="$PROJECT_DIR$/PythonModules/GuessingGame.py" />
         <option value="$PROJECT_DIR$/PythonModules/ShuffleAndChoice.py" />
+        <option value="$PROJECT_DIR$/PythonModules/SysModule.py" />
       </list>
     </option>
   </component>
@@ -209,25 +221,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.ShuffleAndChoice">
-    <configuration default="false" name="AppendFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythonprojects" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AppendFile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.SysModule">
     <configuration default="false" name="CopyFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,6 +290,24 @@
       <module name="pythonprojects" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonModules/ShuffleAndChoice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SysModule" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonModules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonprojects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonModules/SysModule.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -509,19 +521,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.AppendFile" />
-      <item index="1" class="java.lang.String" itemvalue="Python.CopyFile" />
-      <item index="2" class="java.lang.String" itemvalue="Python.RandomModule" />
-      <item index="3" class="java.lang.String" itemvalue="Python.GuessingGame" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ShuffleAndChoice" />
+      <item index="0" class="java.lang.String" itemvalue="Python.CopyFile" />
+      <item index="1" class="java.lang.String" itemvalue="Python.RandomModule" />
+      <item index="2" class="java.lang.String" itemvalue="Python.GuessingGame" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ShuffleAndChoice" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SysModule" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ShuffleAndChoice" />
-        <item index="1" class="java.lang.String" itemvalue="Python.GuessingGame" />
-        <item index="2" class="java.lang.String" itemvalue="Python.RandomModule" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CopyFile" />
-        <item index="4" class="java.lang.String" itemvalue="Python.AppendFile" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SysModule" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ShuffleAndChoice" />
+        <item index="2" class="java.lang.String" itemvalue="Python.GuessingGame" />
+        <item index="3" class="java.lang.String" itemvalue="Python.RandomModule" />
+        <item index="4" class="java.lang.String" itemvalue="Python.CopyFile" />
       </list>
     </recent_temporary>
   </component>
@@ -677,6 +689,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonModules/SysModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding />
         </state>
       </provider>
